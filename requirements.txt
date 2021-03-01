@@ -1,0 +1,7 @@
+notebook
+jupyterhub
+jupyterlab
+jupyter_kernel_gateway
+jupyter_contrib_nbextensions
+supervisor
+nodejs>=12.0.0
