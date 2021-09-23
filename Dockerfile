@@ -30,4 +30,5 @@ USER root
 RUN mkdir /etc/conda
 COPY condarc /etc/conda/condarc
 
+USER 1001
 CMD /tmp/scripts/run
