@@ -29,6 +29,8 @@ RUN /tmp/scripts/assemble
 USER root
 RUN mkdir /etc/conda
 COPY condarc /etc/conda/condarc
+COPY anaconda-virtualenv-profile.sh /etc/profile.d/
+RUN chmod +x anaconda-virtualenv-profile.sh
 
 USER 1001
 CMD /tmp/scripts/run
