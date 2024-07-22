@@ -1,3 +1,7 @@
+# Deprecation Notice
+
+This repository is deprecated. S2I technology is not supported in Openshift anymore so this repos is also being archived for that reason.
+
 # S2I Minimal Notebook
 
 Minimal Thoth S2I notebook builder
